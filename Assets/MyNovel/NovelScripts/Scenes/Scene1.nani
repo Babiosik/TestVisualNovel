@@ -1,0 +1,30 @@
+# Scene
+@back background_scene_1
+
+@if QuestStatus==1
+    @char peggi
+    peggi: I have a job for you. You need play the game.
+    p: Ok.
+    @minigame level:0
+    peggi: Oh! You already played!
+    peggi: Now. Go to Sync and take data.
+    @set QuestStatus=2
+    @quest summary:"Give data from Sync."
+    @unlock Map/Network
+    @hide peggi
+@elseIf QuestStatus==3
+    p: Here's no one. I need go to Red street.
+    @set QuestStatus=4
+    @quest summary:"Go to Red Street."
+@elseIf QuestStatus==5
+    @char peggi
+    @if ItemGive=="peggi"
+        peggi: Thank u very much.
+    @else
+        peggi: I hate you!
+    @endIf
+@endIf
+
+@hidePrinter
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript
+@stop

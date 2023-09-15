@@ -1,0 +1,12 @@
+# Scene
+@back background_network
+
+@choice handler:ButtonArea button:ItemButtons/Data pos:0,450 goto:.TakeItem
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript
+@stop
+
+# TakeItem
+@set QuestStatus=3
+@lock Item/Data
+@lock Map/Network
+@goto .Scene

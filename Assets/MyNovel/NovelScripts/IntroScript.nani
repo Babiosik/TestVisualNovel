@@ -1,0 +1,17 @@
+;Init
+@set QuestStatus=0
+@set ItemGive=""
+@lock Map/Network
+@unlock Item/Data
+
+;Start game
+@input PlayerName summary:"Choose your name."
+@stop
+@goto Scene0.Scene
+
+;Init & import packages 1h
+;Read documentation naninovel 2h
+;See examples 3h
+;Write naninovel scripts 3h
+;Test and update minigame scene 2h
+;Localization 2h

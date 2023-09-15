@@ -1,0 +1,58 @@
+# Scene
+@back background_scene_0
+
+@if QuestStatus==0
+    @char miko
+    miko: Take your first job. It's close, on Blue Street.
+    p: Ok.
+    @showUI QuestLogUI
+    @set QuestStatus=1
+    @quest summary:"Go to Blue Street."
+    @hide miko
+@elseIf QuestStatus==4
+    @char miko
+    miko: You are here!
+    @char peggi
+    peggi: I too.
+    p: And who is are need this data?
+    miko: Me!
+    peggi: No! I need this data!
+    p: I give this item ...
+    @hideUI QuestLogUI
+    @set QuestStatus=5
+    @choice Miko goto:.GiveItemMiko
+    @choice Peggi goto:.GiveItemPeggi
+    @choice Me goto:.GiveItemMe
+@elseIf QuestStatus==5
+    @char miko
+    @if ItemGive=="miko"
+        miko: Thank u very much.
+    @else
+        miko: Go out!
+    @endIf
+@endIf
+
+@hidePrinter
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript.Map
+@stop
+
+# GiveItemMiko
+p: Miko!
+peggi: Hm!
+@hide peggi
+@set ItemGive="miko"
+@goto .Scene
+
+# GiveItemPeggi
+p: Peggi!
+miko: Go out from my street!
+peggi: Follow me.
+@set ItemGive="peggi"
+@goto Scene1
+
+# GiveItemMe
+p: Me! Xaxaxaxa
+miko: Go out from my street!
+peggi: I'l hate you.
+@set ItemGive="me"
+@goto MapScript.Map
