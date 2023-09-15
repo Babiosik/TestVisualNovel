@@ -6,17 +6,17 @@ namespace Assets.MyNovel.Scripts.QuestLog
     [InitializeAtRuntime]
     public class QuestLogService : IEngineService
     {
-        public event UnityAction<string> QuestLogUpdated;
-        public string LastQuestLog { get; private set; } = "";
+        public event UnityAction<QuestLogData> QuestLogUpdated;
+        public QuestLogData LastQuestLog { get; private set; }
 
         public UniTask InitializeServiceAsync() =>
             UniTask.CompletedTask;
         public void ResetService() { }
         public void DestroyService() { }
 
-        public void UpdateQuestLog(string description)
+        public void UpdateQuestLog(QuestLogData data)
         {
-            LastQuestLog = description;
+            LastQuestLog = data;
 
             QuestLogUpdated?.Invoke(LastQuestLog);
         }

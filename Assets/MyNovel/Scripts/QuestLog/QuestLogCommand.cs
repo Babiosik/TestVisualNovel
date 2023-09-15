@@ -7,10 +7,11 @@ namespace Assets.MyNovel.Scripts.QuestLog
     {
         [RequiredParameter]
         public StringParameter Summary;
+        public StringParameter Location;
 
         public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
         {
-            Engine.GetService<QuestLogService>().UpdateQuestLog(Summary);
+            Engine.GetService<QuestLogService>().UpdateQuestLog(new QuestLogData(Summary, Location));
 
             return UniTask.CompletedTask;
         }

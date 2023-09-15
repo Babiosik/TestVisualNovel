@@ -1,19 +1,18 @@
 ﻿using Naninovel;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Assets.MyNovel.Scripts.QuestLog
 {
-    public class QuestLogDescription : MonoBehaviour
+    public class QuestLogMapIcon : MonoBehaviour
     {
-        [SerializeField] private TextMeshProUGUI _textMeshPro;
+        [SerializeField] private GameObject _questIcon;
+        [SerializeField] private string _locationName;
         private QuestLogService _questLogService;
 
         private void Awake()
         {
             _questLogService = Engine.GetService<QuestLogService>();
-            _textMeshPro.text = _questLogService.LastQuestLog?.Description ?? "";
+            OnLogUpdated(_questLogService.LastQuestLog);
         }
 
         private void OnEnable() =>
@@ -24,9 +23,11 @@ namespace Assets.MyNovel.Scripts.QuestLog
 
         private void OnLogUpdated(QuestLogData data)
         {
-            _textMeshPro.text = data?.Description ?? "";
-            _textMeshPro.ForceMeshUpdate(true);
-            LayoutRebuilder.MarkLayoutForRebuild(transform.parent as RectTransform);
+            if (data == null || string.IsNullOrEmpty(data.Location))
+                return;
+
+            bool isQuestHere = data.Location.Equals(_locationName);
+            _questIcon.SetActive(isQuestHere);
         }
     }
 }
