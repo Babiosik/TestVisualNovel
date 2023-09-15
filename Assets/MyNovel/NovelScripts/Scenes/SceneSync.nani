@@ -6,7 +6,10 @@
 @stop
 
 # TakeItem
+p: That she's data. Intresting. But! I need return this to her.
 @set QuestStatus=3
+@quest summary:"Go back to Blue Street." location:blue_street
 @lock Item/Data
 @lock Map/Network
+@hidePrinter
 @goto .Scene

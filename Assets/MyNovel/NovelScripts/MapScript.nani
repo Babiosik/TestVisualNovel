@@ -1,4 +1,5 @@
 # Map
+@hideChars
 @back background_map
 @choice handler:ButtonArea button:MapButtons/RedStreet pos:-630,-300 goto:Scene0
 @choice handler:ButtonArea button:MapButtons/BlueStreet pos:640,-300 goto:Scene1
