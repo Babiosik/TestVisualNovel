@@ -166,3 +166,59 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: QuestLogUI
+      pathPrefix: UI
+      guid: 1a3ec1e889239fa4dbe7f2e9eaedd652
+  - Id: Scripts
+    Resources:
+    - name: IntroScript
+      pathPrefix: Scripts
+      guid: c09bee82fbcf49f449acd85892f8ae92
+    - name: MapScript
+      pathPrefix: Scripts
+      guid: 997d90f2337fec841a535c7fdc9986bc
+    - name: Scene0
+      pathPrefix: Scripts
+      guid: fc88f5a412aa4b44e901f51292fdb63f
+    - name: Scene1
+      pathPrefix: Scripts
+      guid: 3ca1681c1a7d60941b167ea9f555a858
+    - name: SceneSync
+      pathPrefix: Scripts
+      guid: e4bbbfd2755e4b0439a3132bdac44acb
+  - Id: Backgrounds/ff9e64ce-8f4b-45aa-8f1d-6e2ade5b7ba8
+    Resources:
+    - name: background_network
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3c2b0445da52b7e4fad3afeb7f439f51
+    - name: background_scene_0
+      pathPrefix: Backgrounds/MainBackground
+      guid: db099a4cf4756b048b2b1e0a231ab36c
+    - name: background_scene_1
+      pathPrefix: Backgrounds/MainBackground
+      guid: bc0192e12c2df2f478124c4f440387d7
+    - name: background_map
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a91bb58d2738ae44a405ee59cdfbf21
+  - Id: Characters/e1d4fd2c-1e5d-4ba2-a477-3d6b4a606caf
+    Resources:
+    - name: miko
+      pathPrefix: Characters
+      guid: 89093ae9c61374e4a8e28f84b0133dd6
+  - Id: Characters/c8187425-37de-4dd0-a6c4-a3b360927f08
+    Resources:
+    - name: peggi
+      pathPrefix: Characters
+      guid: 7b3b3ff3279f00046b6963be7ab87f8f
+  - Id: Characters/ffdcc3be-20a9-4b9b-acab-2d4a4a6311a8
+    Resources: []
+  - Id: CharacterAvatars
+    Resources: []
+  - Id: Unlockables
+    Resources:
+    - name: Map/Network
+      pathPrefix: Unlockables
+      guid: 10f9f97560896094f9e9a8fda74bc9de
+    - name: Item/Data
+      pathPrefix: Unlockables
+      guid: 99c1b4ba78edf9a44ab7c3c4b603e7fd
