@@ -1,5 +1,6 @@
 # Scene
 @back background_scene_0
+@sfx Tech loop:true
 
 @if QuestStatus==0
     @char miko
@@ -20,8 +21,12 @@
     @endIf
 @endIf
 
-@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript.Map
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:.GoOut
 @stop
+
+# GoOut
+@stopSfx Tech
+@goto MapScript
 
 # ReturnWithData
 @char miko
@@ -35,9 +40,9 @@ p: I give this item ...
 @hideUI QuestLogUI
 @set QuestStatus=5
 @quest summary:"" location:""
-@choice Miko goto:.GiveItemMiko
-@choice Peggi goto:.GiveItemPeggi
-@choice Me goto:.GiveItemMe
+@choice Miko handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMiko
+@choice Peggi handler:ButtonList button:ItemButtons/ChoiceButton goto:.GiveItemPeggi
+@choice Me handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMe
 @stop
 
 # GiveItemMiko
@@ -51,8 +56,10 @@ peggi: Hm!
 p: Peggi!
 miko: Go out from my street!
 peggi: Follow me.
+@hidePrinter
 @hide miko
 @set ItemGive="peggi"
+@stopSfx Tech
 @goto Scene1
 
 # GiveItemMe
@@ -62,4 +69,4 @@ peggi: I'l hate you.
 @hideChars
 @hidePrinter
 @set ItemGive="me"
-@goto MapScript.Map
+@goto .GoOut
