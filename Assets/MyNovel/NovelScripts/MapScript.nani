@@ -2,7 +2,7 @@
 @hideChars
 @hidePrinter
 @back background_map
-@choice handler:ButtonArea button:MapButtons/RedStreet pos:-630,-300 goto:Scene0
-@choice handler:ButtonArea button:MapButtons/BlueStreet pos:640,-300 goto:Scene1
-@choice handler:ButtonArea button:MapButtons/Network pos:0,450 goto:SceneSync
+@choice handler:ButtonArea button:MapButtons/RedStreet pos:-370,-50 goto:Scene0
+@choice handler:ButtonArea button:MapButtons/BlueStreet pos:260,-205 goto:Scene1
+@choice handler:ButtonArea button:MapButtons/Network pos:200,170 goto:SceneSync
 @stop
