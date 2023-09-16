@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978331dd1a6f3a048b8c621b8c47ef7f, type: 3}
+  m_Name: EasyLevel
+  m_EditorClassIdentifier: 
+  _shuffleAlgorithm: 0
+  _alignLastRow: 1
+  _cardMode: 0
+  _amountOfCards: 10
+  _boardMode: 0
+  _cardsOnBoardLimit: 10
+  _refillAtFoundPercentage: 100
+  _cardAnimationSpeed: 1
+  _cardBacks:
+  - {fileID: 21300000, guid: 7273b918d5645aa4d9413d3de3ab317c, type: 3}
+  _cardSprites:
+  - {fileID: 21300000, guid: 54d90cae680aeb142a779a227a06c151, type: 3}
+  - {fileID: 21300000, guid: 1ab50c59bb5ad3b409c44ab22f0b4e6d, type: 3}
+  - {fileID: 21300000, guid: 7f388ab916374f642a56d0637c383279, type: 3}
