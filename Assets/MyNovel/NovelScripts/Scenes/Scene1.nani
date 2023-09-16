@@ -1,5 +1,6 @@
 # Scene
 @back background_scene_1
+@spawn Rain
 
 @if QuestStatus==1
     @char peggi
@@ -25,6 +26,9 @@
     @endIf
 @endIf
 
-@hidePrinter
-@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:.GoOut
 @stop
+
+# GoOut
+@despawn Rain
+@goto MapScript

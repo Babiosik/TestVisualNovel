@@ -20,7 +20,6 @@
     @endIf
 @endIf
 
-@hidePrinter
 @choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript.Map
 @stop
 

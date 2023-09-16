@@ -3,6 +3,7 @@
 @set ItemGive=""
 @lock Map/Network
 @unlock Item/Data
+@printer NewTMProDialogue default:true
 
 ;Start game
 @input PlayerName summary:"Choose your name."
@@ -15,3 +16,5 @@
 ;Write naninovel scripts 3h
 ;Test and update minigame scene 2h
 ;Localization 2h
+;Quest log 1h
+;Update UI 1.5h
