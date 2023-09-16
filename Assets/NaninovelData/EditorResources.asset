@@ -199,7 +199,7 @@ MonoBehaviour:
       guid: bc0192e12c2df2f478124c4f440387d7
     - name: background_map
       pathPrefix: Backgrounds/MainBackground
-      guid: 4a91bb58d2738ae44a405ee59cdfbf21
+      guid: f036c66af9aa056419440cef02d3e3f4
   - Id: Characters/e1d4fd2c-1e5d-4ba2-a477-3d6b4a606caf
     Resources:
     - name: miko

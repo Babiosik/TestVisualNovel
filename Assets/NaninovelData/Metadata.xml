@@ -439,6 +439,7 @@
         &lt;Name&gt;Labels/Scene0&lt;/Name&gt;
         &lt;Values&gt;
           &lt;string&gt;Scene&lt;/string&gt;
+          &lt;string&gt;GoOut&lt;/string&gt;
           &lt;string&gt;ReturnWithData&lt;/string&gt;
           &lt;string&gt;GiveItemMiko&lt;/string&gt;
           &lt;string&gt;GiveItemPeggi&lt;/string&gt;
