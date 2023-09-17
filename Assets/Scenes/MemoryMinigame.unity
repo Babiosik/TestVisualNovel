@@ -200,7 +200,7 @@ MonoBehaviour:
   _grid: {fileID: 334973338}
   _cardSpacing: 0.1
   _maximumCardSize: 0
-  _cardPrefab: {fileID: 3485479286785818554, guid: 33f71458c12c69a4b9fbae90d0e7e4e0, type: 3}
+  _cardPrefab: {fileID: 3485479286785818554, guid: 92ebb776655695a4996eecaf005e2a6c, type: 3}
 --- !u!1 &738112654
 GameObject:
   m_ObjectHideFlags: 0
