@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ReferenceResolution: {x: 1920, y: 1080}
   ReferencePPU: 100
-  MatchScreenWidth: 0
+  MatchScreenWidth: 1
   InitialPosition: {x: 0, y: 0, z: -10}
   CustomCameraPrefab: {fileID: 0}
   UseUICamera: 1

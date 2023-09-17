@@ -22,6 +22,7 @@
 @endIf
 
 @choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:.GoOut
+@hidePrinter
 @stop
 
 # GoOut
