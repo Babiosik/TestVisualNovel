@@ -1,0 +1,71 @@
+; English <en> to Ukrainian <uk> localization document for `DefaultUI` managed text document
+
+CGGallery.Title: ГАЛЕРЕЯ CG
+Confirmation.No: НІ
+Confirmation.Yes: ТАК
+ControlPanel.Auto: АВТО
+ControlPanel.Hide: ПРИХОВАТИ
+ControlPanel.Load: ЗАВАНТАЖИТИ
+ControlPanel.Log: ЛОГ
+ControlPanel.QuickLoad: Q.LOAD
+ControlPanel.QuickSave: Q.SAVE
+ControlPanel.Save: ЗБЕРЕГТИ
+ControlPanel.Settings: НАЛАШТУВАННЯ
+ControlPanel.Skip: ПРОПУСТИТИ
+ControlPanel.Tips: ПОРАДИ
+ControlPanel.Title: НАЗВА
+ExternalScriptsBrowser.Info: Виберіть сценарій для відтворення
+ExternalScriptsBrowser.Title: ЗОВНІШНІ СЦЕНАРІЇ
+General.Close: ЗАКРИТИ
+General.Return: ПОВЕРНУТИСЯ
+Naninovel.UI.ControlPanelTitleButton.ConfirmationMessage: Ви впевнені, що хочете вийти на титульний екран?\nУся незбережена гра буде втрачена.
+Naninovel.UI.GameSettingsFontDropdown.DefaultFontName: За замовчуванням
+Naninovel.UI.GameSettingsFontSizeDropdown.Default: За замовчуванням
+Naninovel.UI.GameSettingsFontSizeDropdown.ExtraLarge: Надзвичайно великий
+Naninovel.UI.GameSettingsFontSizeDropdown.Large: Великий
+Naninovel.UI.GameSettingsFontSizeDropdown.Small: Малий
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption1: Дуже низький
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption2: Низький
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption3: Середній
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption4: Високий
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption5: Дуже високий
+Naninovel.UI.GameSettingsGraphicsDropdown.GraphicOption6: Ультра
+Naninovel.UI.GameSettingsScreenModeDropdown.ExclusiveFullScreen: На весь екран
+Naninovel.UI.GameSettingsScreenModeDropdown.FullScreenWindow: Повное екранне вікно
+Naninovel.UI.GameSettingsScreenModeDropdown.MaximizedWindow: Розгорнуте вікно
+Naninovel.UI.GameSettingsScreenModeDropdown.Windowed: У вікні
+Naninovel.UI.GameSettingsSkipModeDropdown.Everything: Все
+Naninovel.UI.GameSettingsSkipModeDropdown.ReadOnly: Тільки для читання
+Naninovel.UI.GameStateSlot.EmptySlotLabel: Порожньо
+Naninovel.UI.SaveLoadMenu.DeleteSaveSlotMessage: Ви впевнені, що хочете видалити слот збереження?
+Naninovel.UI.SaveLoadMenu.OverwriteSaveSlotMessage: Ви впевнені, що хочете перезаписати слот збереження?
+SaveLoadMenu.Tab.Load: ЗАВАНТАЖИТИ
+SaveLoadMenu.Tab.QuickLoad: Q. ЗАВАНТАЖИТИ
+SaveLoadMenu.Tab.Save: ЗБЕРЕГТИ
+SettingsMenu.AutoDelay: Автоматична затримка:
+SettingsMenu.Font: Шрифт:
+SettingsMenu.FontSize: Розмір шрифту:
+SettingsMenu.Graphics: Графіка:
+SettingsMenu.Language: Мова:
+SettingsMenu.MessageSpeed: Швидкість передачі повідомлень:
+SettingsMenu.Preview: Попередній перегляд
+SettingsMenu.PreviewText: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis vitae tellus a pharetra. Aenean vitae ipsum in est lobortis vulputate a blandit ipsum. Nullam in felis purus.
+SettingsMenu.Resolution: Роздільна здатність:
+SettingsMenu.ScreenMode: Екранний режим:
+SettingsMenu.SkipMode: Пропустити:
+SettingsMenu.Tab.Basic: BASIC
+SettingsMenu.Tab.Sound: ЗВУК
+SettingsMenu.Tab.Text: ТЕКСТ
+SettingsMenu.VoiceLanguage: Мова голосу:
+SettingsMenu.VolumeEffects: Гучність ефектів:
+SettingsMenu.VolumeMaster: Основна гучність:
+SettingsMenu.VolumeMusic: Гучність музики:
+SettingsMenu.VolumeVoice: Гучність голосу:
+TitleMenu.CGGallery: CG ГАЛЕРЕЯ
+TitleMenu.Continue: ПРОДОВЖИТИ
+TitleMenu.Exit: ВИХІД
+TitleMenu.ExternalScripts: ЗОВНІШНІ СКРИПТИ
+TitleMenu.NewGame: НОВА ГРА
+TitleMenu.Settings: НАЛАШТУВАННЯ
+TitleMenu.Tips: ПОРАДИ
+VariableInput.Submit: ВІДПРАВИТИ

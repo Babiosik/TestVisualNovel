@@ -1,0 +1,85 @@
+; English <en> to Ukrainian <uk> localization document for `Scene0` naninovel script
+
+# 9a4813c3
+;     miko: Take your first job. It's close, on Blue Street.
+    miko: Візьми свою першу роботу. Це недалеко, на Блу-стріт.
+
+# 9d6278d4
+;     p: Ok.
+    p: Гаразд.
+
+# a92fbae0
+;         miko: Thank u very much.
+        miko: Дуже вам дякую.
+
+# b2af2aea
+;         miko: Go out!
+        miko: Виходьте!
+
+# b71bfc3d
+; miko: You are here!
+miko: Ти тут!
+
+# e7f023b5
+; peggi: I too.
+peggi: Я теж.
+
+# ccb24310
+; p: And who is are need this data?
+p: А кому потрібні ці дані?
+
+# 91c62d2
+; miko: Me!
+miko: Мені!
+
+# a45f211f
+; peggi: No! I need this data!
+peggi: Ні! Ці дані потрібні мені!
+
+# afaf8857
+; p: I give this item ...
+p: Віддаю цю річ...
+
+# f8fb5a0f
+; @choice Miko handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMiko
+@choice Міко. handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMiko
+
+# 181e3680
+; @choice Peggi handler:ButtonList button:ItemButtons/ChoiceButton goto:.GiveItemPeggi
+@choice Пеґґі. handler:ButtonList button:ItemButtons/ChoiceButton goto:.GiveItemPeggi
+
+# 993840c0
+; @choice Me handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMe
+@choice Мені. handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMe
+
+# 17ea2cbf
+; p: Miko!
+p: Міко!
+
+# 934c8dfa
+; peggi: Hm!
+peggi: Хм!
+
+# 3aec073b
+; p: Peggi!
+p: Пеґґі!
+
+# da2776c
+; miko: Go out from my street!
+miko: Забирайся з моєї вулиці!
+
+# 5c5e36e5
+; peggi: Follow me.
+peggi: Йди за мною.
+
+# 3dedf1d1
+; p: Me! Xaxaxaxa
+p: За мною! Xaxaxaxaxa
+
+# da2776c
+; miko: Go out from my street!
+miko: Геть з моєї вулиці!
+
+# fb00d478
+; peggi: I'l hate you.
+peggi: Я тебе зненавиджу.

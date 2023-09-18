@@ -1,0 +1,12 @@
+;Init
+@bgm MainTheme loop:true fade:0.5
+@set QuestStatus=0
+@set ItemGive=""
+@lock Map/Network
+@unlock Item/Data
+@printer NewTMProDialogue default:true
+
+;Start game
+@input PlayerName summary:"Choose your name."
+@stop
+@goto Scene0.Scene

@@ -1,0 +1,10 @@
+; English <en> to Ukrainian <uk> localization document for `MapScript` naninovel script
+
+# 942c313
+; @choice handler:ButtonArea button:MapButtons/RedStreet pos:-370,-50 goto:Scene0
+
+# 62991fce
+; @choice handler:ButtonArea button:MapButtons/BlueStreet pos:260,-205 goto:Scene1
+
+# b0591083
+; @choice handler:ButtonArea button:MapButtons/Network pos:200,170 goto:SceneSync

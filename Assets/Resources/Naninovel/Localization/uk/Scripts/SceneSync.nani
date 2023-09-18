@@ -1,0 +1,9 @@
+; English <en> to Ukrainian <uk> localization document for `SceneSync` naninovel script
+
+# cb78b4a
+; p: That she's data. Intresting. But! I need return this to her.
+p: Що вона - дані. Цікаво. Але! Я повинен повернути їй це.
+
+# a9c5a11e
+; @goto .Scene
+@goto .Scene

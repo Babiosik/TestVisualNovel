@@ -1,0 +1,73 @@
+# Scene
+@back background_scene_0
+@sfx Tech loop:true
+
+@if QuestStatus==0
+    @char miko
+    miko: Take your first job. It's close, on Blue Street.
+    p: Ok.
+    @showUI QuestLogUI
+    @set QuestStatus=1
+    @quest summary:"Go to Blue Street." location:blue_street
+    @hide miko
+@elseIf QuestStatus==4
+    @goto .ReturnWithData
+@elseIf QuestStatus==5
+    @char miko
+    @if ItemGive=="miko"
+        miko: Thank u very much.
+    @else
+        miko: Go out!
+    @endIf
+@endIf
+
+@choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:.GoOut
+@hidePrinter
+@stop
+
+# GoOut
+@stopSfx Tech
+@goto MapScript
+
+# ReturnWithData
+@char miko
+miko: You are here!
+@char peggi
+peggi: I too.
+p: And who is are need this data?
+miko: Me!
+peggi: No! I need this data!
+p: I give this item ...
+@hideUI QuestLogUI
+@set QuestStatus=5
+@quest summary:"" location:""
+@choice Miko handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMiko
+@choice Peggi handler:ButtonList button:ItemButtons/ChoiceButton goto:.GiveItemPeggi
+@choice Me handler:ButtonList button:ItemButtons/ChoiceButton  goto:.GiveItemMe
+@stop
+
+# GiveItemMiko
+p: Miko!
+peggi: Hm!
+@hide peggi
+@set ItemGive="miko"
+@goto .Scene
+
+# GiveItemPeggi
+p: Peggi!
+miko: Go out from my street!
+peggi: Follow me.
+@hidePrinter
+@hide miko
+@set ItemGive="peggi"
+@stopSfx Tech
+@goto Scene1
+
+# GiveItemMe
+p: Me! Xaxaxaxa
+miko: Go out from my street!
+peggi: I'l hate you.
+@hideChars
+@hidePrinter
+@set ItemGive="me"
+@goto .GoOut

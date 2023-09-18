@@ -1,0 +1,33 @@
+; English <en> to Ukrainian <uk> localization document for `Scene1` naninovel script
+
+# 8bafed2c
+;     peggi: I have a job for you. You need play the game.
+    peggi: У мене є робота для тебе. Тобі потрібно зіграти в гру.
+
+# 9d6278d4
+;     p: Ok.
+    p: Гаразд.
+
+# b73cc67b
+;     peggi: Oh! You already played!
+    peggi: О! Ти вже зіграв!
+
+# 1c74d17f
+;     peggi: Now. Go to Sync and take data.
+    peggi: Давай. Зайди в "Синхронізацію" і візьми дані.
+
+# 9d6278d4
+;     p: Ok.
+    p: Гаразд.
+
+# dc517da
+;     p: Here's no one. I need go to Red street.
+    p: Тут нікого немає. Мені треба на Червону вулицю.
+
+# 75292cca
+;         peggi: Thank u very much.
+        peggi: Дуже дякую.
+
+# 9f05f775
+;         peggi: I hate you!
+        peggi: Ненавиджу тебе!
