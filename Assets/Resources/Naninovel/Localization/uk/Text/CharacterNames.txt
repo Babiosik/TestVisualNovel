@@ -1,5 +1,5 @@
 ; English <en> to Ukrainian <uk> localization document for `CharacterNames` managed text document
 
-miko: Miko
+miko: Міко
 p: { PlayerName }
-peggi: Peggi
+peggi: Пеггі

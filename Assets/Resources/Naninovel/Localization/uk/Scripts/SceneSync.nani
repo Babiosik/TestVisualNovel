@@ -1,7 +1,9 @@
 ; English <en> to Ukrainian <uk> localization document for `SceneSync` naninovel script
 
-# a66ec0e2
-; @choice handler:ButtonArea button:ItemButtons/Data pos:0,450 goto:.TakeItem
+# cb78b4a
+; p: That she's data. Intresting. But! I need return this to her.
+p: Що вона - дані. Цікаво. Але! Я повинен повернути їй це.
 
-# 66898ea3
-; @choice handler:ButtonArea button:MapButtons/Map pos:900,450 goto:MapScript
+# a9c5a11e
+; @goto .Scene
+@goto .Scene

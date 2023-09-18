@@ -2,3 +2,4 @@
 
 # f4c8a666
 ; @input PlayerName summary:"Choose your name."
+@input PlayerName summary:"Виберіть своє ім'я".
