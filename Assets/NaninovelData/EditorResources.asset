@@ -120,7 +120,7 @@ MonoBehaviour:
       guid: 702c32b2de0c0784b9a66ec90601874f
     - name: BacklogUI
       pathPrefix: UI
-      guid: 7fba909c66b25324cb77db18679c2c96
+      guid: 83588ae785d17b847b928bc910fb21be
     - name: CGGalleryUI
       pathPrefix: UI
       guid: 71da50c8dae82bd42ba67528804e820c
